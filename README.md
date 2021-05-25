@@ -23,7 +23,7 @@
 
 ## Dashboard
 <h3 align="center">
-  <img src="dashboard.PNG" width="800">
+  <img src="dashboard.png" width="800">
 </h3>
 
 ## Instructions
