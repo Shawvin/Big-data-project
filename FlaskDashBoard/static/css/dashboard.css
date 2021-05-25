@@ -1,0 +1,100 @@
+html, body, {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+body {
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.title {
+    background: #657786 !important;
+    color: #FFF;
+}
+
+.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+}
+
+.counter_container {
+    float: left;
+    width: 20%;
+    text-align: center;
+    background-color: #E1E8ED;
+    height: 12vh;
+}
+
+.my_container {
+    width: 100%;
+    height: 100%;
+}
+
+.total_counter {
+    background-color: #AAB8C2; !important;
+    text-align: center;
+}
+
+.rightpane {
+    width: 62vw;
+    height: 100%;
+    position: relative;
+    float: right;
+    border-collapse: collapse;
+    padding: 0 0.5vw;
+    background-color: #F4F6F6;
+}
+
+.card {
+    border: 1px solid #d3d3d3;
+    border-radius: .25rem;
+    padding: 15px;
+}
+
+.card:hover {
+    background-color: rgba(230, 80, 16, 0.2);
+}
+
+a {
+    text-decoration: none; 
+    color: black;
+}
+
+.leftpane {
+    width: 34.6vw;
+    height: 100%;
+    float: left;
+    padding: 0.5vh 0.5vw;
+    background-color: #F2F4F4;
+    border: 1px solid #F4F6F6;
+    border-collapse: collapse;
+}
+
+#first{ 
+    width: 30vw;
+    height: 30vh;
+    float: left;
+    border: 0.5vw solid #F4F6F6;
+    background-color: white;
+}
+
+#second { 
+    width: 30vw;
+    height: 30vh;
+    float: left;
+    border: 0.5vw solid #F4F6F6;
+}
+
+#third {
+    height: 65vh;
+    float: left;
+    border: 0.5vw solid #F4F6F6;
+}

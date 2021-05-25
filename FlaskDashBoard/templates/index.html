@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Real time data analysis</title>
+	<link rel="stylesheet" type="text/css" href="static/css/dashboard.css">
+	<link rel="stylesheet" href="static/css/jqcloud.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+	<script type="text/javascript" src="static/js/jqcloud-1.0.4.js"></script>
+	<script src="static/js/scripts2.js"></script>
+	
+ 	<script src="https://cdn.plot.ly/plotly-latest.min.js"></script> 
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+</head>
+
+<body>
+	<div class="header">
+
+        <div class="counter_container title">
+		<h3>Real-Time<br />Twitter Analysis</h3>
+        </div>
+
+        <div class="counter_container total_counter">
+            <p class="counter_title">Tweets Analyzed</p>
+	    <h3 id="total_counter_value"> {{ sentiments['total'] }} </h3>
+        </div>
+
+        <div id="negative_counter_container" class="counter_container">
+            <p class="counter_title">Negative</p>
+	    <h3 id="negative_counter"> {{ sentiments['negative'] }} %</h3>
+        </div>
+
+        <div id="neutral_counter_container" class="counter_container">
+            <p class="counter_title">Neutral</p>
+	    <h3 id="neutral_counter"> {{ sentiments['neutral'] }} %</h3>
+        </div>
+
+        <div id="positive_counter_container" class="counter_container">
+            <p class="counter_title">Positive</p>
+	    <h3 id="positive_counter"> {{ sentiments['positive'] }} %</h3>
+        </div>
+
+    	<div class="my_container">
+	    	<div id="RawTweets" class="leftpane">
+	                <h3><center>Most Relevant Tweets</center></h3>
+
+	    		{% for user, text, id in tweets %}
+				<div class="card">
+					<a href={{"https://twitter.com/" ~ user ~ "/status/" ~ id}}>
+						{{text}}
+					</a>
+				</div>
+			{% endfor %}
+
+		</div>
+
+		<div class="rightpane">
+			<div id="first">
+			</div>
+			<div id="second">
+			<script type="text/javascript">
+				var data = [{
+				    x: {{wordcounts['words'] | safe}},
+				    y: {{wordcounts['counts'] | safe}},
+				    type: 'bar',
+				    text: {{wordcounts['counts'] | safe}}.map(String),
+				    textposition: 'auto',
+				    hoverinfo: 'none',
+				    marker: {
+					color: 'rgb(220, 248, 198)',
+					opacity: 0.6,
+					line: {
+						color: 'rgb(8, 48, 107)',
+						width: 1.5
+					}
+				    }
+				}];
+
+				var layout = {
+					title: 'Most used terms',
+					barmode: 'stack',
+				};
+
+				Plotly.newPlot('second', data, layout);
+			</script>
+			</div>
+
+			<div id="third" style="width: 100%;">
+			<script type="text/javascript">
+				var graphs = {{graphJSON | safe}};
+
+				var layout = { 
+					title: 'Tweets from April 1 to April 3!',
+					font: {size: 10},
+					showlegend: false,
+				};
+
+				var config = {responsive: true};
+				Plotly.plot('third', graphs, layout, config);
+		    	</script>
+			</div>
+		 </div>
+	</div>
+
+</body>
+</html>
