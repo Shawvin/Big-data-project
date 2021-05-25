@@ -10,7 +10,7 @@
 
 ## Architecture
 <h3 align="center">
-  <img src="architecture.JPG" width="800">
+  <img src="architecture.PNG" width="800">
 </h3>
 
 **Tweepy:** Tweepy is used to connect to twitter and get the historical and streaming data. Then, this data is saved to hdfs or sent to TCP-port.
