@@ -68,7 +68,7 @@ setInterval(function(){
     $.ajax({url: '/graph', success: function(data) {
         var graphs = $.parseJSON(data);
         var layout = {
-		title: 'Real time tweets geo location!',
+		title: 'Tweets geo location from past streaming data',
 		font: {size: 10},
 		showlegend: false,
         };

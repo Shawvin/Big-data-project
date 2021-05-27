@@ -1,58 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7c883a40-8cca-4638-afbf-781fa74aea6e" name="Default Changelist" comment="" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="7c883a40-8cca-4638-afbf-781fa74aea6e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.ipynb_checkpoints/Stream tweet tweepy-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../.ipynb_checkpoints/Stream tweet tweepy-checkpoint.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TwitterAnalysisDashboard.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TwitterAnalysisDashboard.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FlaskDashBoard/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/../FlaskDashBoard/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stream tweet tweepy.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Stream tweet tweepy.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tweet LDA V5.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/../Tweet LDA V5.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022948000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022950000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022952000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022954000.bk.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022954000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022956000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022958000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022960000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022962000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/.checkpoint-1622022964000.crc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022948000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022950000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022952000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022954000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022954000.bk" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022956000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022958000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022960000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022962000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/checkpoint-1622022964000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622021950004-1622022010004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022012004-1622022072004" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022074006-1622022134006" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022136000-1622022196000" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022196003-1622022256003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022258001-1622022318001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022318003-1622022378003" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022379124-1622022439124" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022439225-1622022499225" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022499234-1622022559234" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022559278-1622022619278" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022619587-1622022679587" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022680014-1622022740014" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022740262-1622022800262" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022800889-1622022860889" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022863105-1622022923105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022925997-1622022985997" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622022992293-1622023052293" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023066275-1622023126275" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023130249-1622023190249" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023207209-1622023267209" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023272904-1622023332904" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023356735-1622023416735" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023450105-1622023510105" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622023573022-1622023633022" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../twittercheckpt/receivedBlockMetadata/log-1622025914761-1622025974761" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/most_active_users_chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="15" lean-forward="true" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/js/most_mentioned_users_chart.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="28" column="17" lean-forward="true" selection-start-line="24" selection-start-column="16" selection-end-line="28" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/dashboard.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-              <folding>
-                <element signature="n#style#0;n#img#0;n#div#4;n#body#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -62,6 +68,9 @@
         <option value="Setup Script" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -89,6 +98,8 @@
     <option name="width" value="1400" />
     <option name="height" value="810" />
   </component>
+  <component name="ProjectId" id="1t63yc0JYoW9bxbdRaV8zdCLocQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -108,8 +119,13 @@
       <pane id="Scope" />
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -122,18 +138,6 @@
       <recent name="$PROJECT_DIR$/static/js" />
       <recent name="$PROJECT_DIR$/static" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
@@ -148,6 +152,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -169,6 +174,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -184,6 +190,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -194,6 +201,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1560411081145</updated>
+      <workItem from="1622075972771" duration="57000" />
     </task>
     <servers />
   </component>
@@ -237,6 +245,9 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.js" />

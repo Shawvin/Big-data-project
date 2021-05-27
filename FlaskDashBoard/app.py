@@ -7,9 +7,11 @@ app = Flask(__name__)
 app.config['IMAGES_PATH'] = os.path.join('static', 'images')
 
 tweets = {'users': ['RchavezRuben'], 'text': ['RT @KenDilanianNBC: Imagine if, two months ago, a competent federal government had led a World War II-level effort to ramp up production of…'], 'id': [123456789]}
-sentiments = {'positive': 23, 'neutral': 23, 'negative': 4, 'total': 50}
+sentiments = {'positive': 0, 'neutral': 0, 'negative': 0, 'total': 0}
 hashtag_counts = {'words': ['#SocialDistancing'], 'counts': [16]}
+#hashtag_counts = {}
 word_counts = {'words': ['COVID19', 'Quarantine'], 'counts': [16, 50]}
+#word_counts ={}
 geodata = {'longitude': [-96.314445], 'latitude': [30.601389]}
 jqCloud_word_count = []
 graphJSON = {}
