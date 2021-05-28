@@ -22,12 +22,7 @@
 **Flask:** Python web framework, which receives the data from Spark and shows dashboards.
 
 ## Dashboard
-<h3 align="center">
-  <img src="dashboard.png" width="800">
-</h3>
-
-## Demonstration
-[](https://www.youtube.com/watch?v=-7KTNaeXsGU)
+[![dashboard](dashboard.png)](https://www.youtube.com/watch?v=-7KTNaeXsGU)
 
 ## Instructions
 
