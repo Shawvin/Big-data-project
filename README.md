@@ -26,6 +26,9 @@
   <img src="dashboard.png" width="800">
 </h3>
 
+## Demonstration
+[](https://www.youtube.com/watch?v=-7KTNaeXsGU)
+
 ## Instructions
 
 Tweepy:
